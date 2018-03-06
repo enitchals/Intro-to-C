@@ -10,7 +10,7 @@
 int fizzbuzz(int n)
 {
     int x;
-    int y;
+    int y=0;
     for (x=1; x<n+1; x++)
     {
         if (x%3==0)
