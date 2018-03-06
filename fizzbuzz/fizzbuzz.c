@@ -19,7 +19,7 @@ int fizzbuzz(int n)
             printf("buzz");
         if (x%3==0 || x%5==0)
             printf("\n");
-        if (!(x%3==0) && !(x%5==0))
+        if (~(x%3==0) && ~(x%5==0))
             y = y+1;
     }
     return y;
