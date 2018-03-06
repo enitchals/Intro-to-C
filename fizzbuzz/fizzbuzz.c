@@ -9,7 +9,20 @@
 */
 int fizzbuzz(int n)
 {
-
+    int x;
+    int y;
+    for (x=1; x<n+1; x++)
+    {
+        if (x%3==0)
+            printf("fizz");
+        if (x%5==0)
+            printf("buzz");
+        if (x%3==0 || x%5==0)
+            printf("\n");
+        if (!(x%3==0) && !(x%5==0))
+            y = y+1;
+    }
+    return y;
 }
 
 #ifndef TESTING
